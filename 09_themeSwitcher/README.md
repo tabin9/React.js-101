@@ -9,6 +9,7 @@ Here we will discuss a different way to create a context.
    - We also created a Context Provider, which we will use to wrap our components.
    - Then we created a custom hook - useTheme, which will return the context and
      all the initial values in the context.
+   - Notice that we don't add functionality to the methods, we just declare them.
 
 ```js
 import { createContext, useContext } from "react";
